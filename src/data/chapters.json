@@ -1,0 +1,82 @@
+[
+  {
+    "id": "chapter1",
+    "title": "前言",
+    "description": "關於名偵探柯南系列和犯案手法的重要性"
+  },
+  {
+    "id": "chapter2",
+    "title": "基本概念",
+    "description": "犯罪手法的分類與特點"
+  },
+  {
+    "id": "chapter3",
+    "title": "密室謀殺",
+    "description": "柯南系列中的密室謀殺案例與手法分析"
+  },
+  {
+    "id": "chapter4",
+    "title": "不在場證明",
+    "description": "不在場證明的製造與破解"
+  },
+  {
+    "id": "chapter5",
+    "title": "偽裝與變聲",
+    "description": "身份偽裝與聲音變換技術"
+  },
+  {
+    "id": "chapter6",
+    "title": "毒殺手法",
+    "description": "各種毒物的使用與投放方式"
+  },
+  {
+    "id": "chapter7",
+    "title": "機關與陷阱",
+    "description": "精巧機關與致命陷阱的設計"
+  },
+  {
+    "id": "chapter8",
+    "title": "心理誘導",
+    "description": "利用心理弱點與暗示的犯罪手法"
+  },
+  {
+    "id": "chapter9",
+    "title": "科技犯罪",
+    "description": "利用現代科技實施的犯罪"
+  },
+  {
+    "id": "chapter10",
+    "title": "偽造與仿製",
+    "description": "證據偽造與物品仿製技術"
+  },
+  {
+    "id": "chapter11",
+    "title": "時間差利用",
+    "description": "利用時間差製造的完美犯罪"
+  },
+  {
+    "id": "chapter12",
+    "title": "環境利用",
+    "description": "利用特殊環境條件實施的犯罪"
+  },
+  {
+    "id": "chapter13",
+    "title": "連環計",
+    "description": "多重手法組合的複雜犯罪"
+  },
+  {
+    "id": "chapter14",
+    "title": "經典案例分析",
+    "description": "柯南系列中最具代表性的案例詳解"
+  },
+  {
+    "id": "chapter15",
+    "title": "犯罪心理學",
+    "description": "犯罪者的動機與心理分析"
+  },
+  {
+    "id": "chapter16",
+    "title": "結語",
+    "description": "犯罪手法研究的意義與啟示"
+  }
+]

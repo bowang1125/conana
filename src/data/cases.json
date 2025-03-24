@@ -1,0 +1,50 @@
+[
+  {
+    "id": "case1",
+    "title": "鐘樓密室案",
+    "method": "method1",
+    "description": "在鐘樓內發生的密室謀殺案，兇手利用特殊機關製造密室"
+  },
+  {
+    "id": "case2",
+    "title": "雪山別墅案",
+    "method": "method2",
+    "description": "在雪山別墅中發生的謀殺案，兇手巧妙偽造不在場證明"
+  },
+  {
+    "id": "case3",
+    "title": "餐廳毒殺案",
+    "method": "method3",
+    "description": "在高級餐廳發生的毒殺案，兇手利用特殊方式投放毒物"
+  },
+  {
+    "id": "case4",
+    "title": "遊樂園機關案",
+    "method": "method4",
+    "description": "在遊樂園中利用機關裝置實施的謀殺案"
+  },
+  {
+    "id": "case5",
+    "title": "劇團偽裝案",
+    "method": "method5",
+    "description": "在劇團中發生的謀殺案，兇手利用專業偽裝技術隱藏身份"
+  },
+  {
+    "id": "case6",
+    "title": "心理暗示案",
+    "method": "method6",
+    "description": "利用心理暗示誘導受害者自殺的案件"
+  },
+  {
+    "id": "case7",
+    "title": "電腦病毒案",
+    "method": "method7",
+    "description": "利用特製電腦病毒實施的高科技犯罪案件"
+  },
+  {
+    "id": "case8",
+    "title": "證據調包案",
+    "method": "method8",
+    "description": "通過巧妙調包關鍵證據誤導偵查方向的案件"
+  }
+]

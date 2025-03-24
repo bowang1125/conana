@@ -1,0 +1,50 @@
+[
+  {
+    "id": "method1",
+    "title": "密室謀殺",
+    "category": "空間類",
+    "description": "在密閉空間內實施的謀殺手法，通常涉及特殊的進出機制"
+  },
+  {
+    "id": "method2",
+    "title": "不在場證明偽造",
+    "category": "時間類",
+    "description": "通過各種手段製造虛假的不在場證明"
+  },
+  {
+    "id": "method3",
+    "title": "毒殺",
+    "category": "化學類",
+    "description": "使用各種毒物實施的謀殺手法"
+  },
+  {
+    "id": "method4",
+    "title": "機關陷阱",
+    "category": "物理類",
+    "description": "利用精巧機關或陷阱實施的犯罪"
+  },
+  {
+    "id": "method5",
+    "title": "偽裝變聲",
+    "category": "身份類",
+    "description": "通過改變外表和聲音隱藏真實身份"
+  },
+  {
+    "id": "method6",
+    "title": "心理誘導",
+    "category": "心理類",
+    "description": "利用心理暗示或操控使目標自行實施特定行為"
+  },
+  {
+    "id": "method7",
+    "title": "科技犯罪",
+    "category": "技術類",
+    "description": "利用現代科技設備或技術實施的犯罪"
+  },
+  {
+    "id": "method8",
+    "title": "證據偽造",
+    "category": "欺騙類",
+    "description": "製造或修改證據以誤導調查方向"
+  }
+]
