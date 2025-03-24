@@ -1,63 +1,54 @@
 // 主要JavaScript文件
-document.addEventListener("DOMContentLoaded", function () {
-  // 初始化變數
-  let currentLanguage = "zh"; // 預設語言為中文
-  let currentTheme = "dark"; // 預設主題為深色
-  let chapters = [];
-  let crimeMethods = [];
-  let cases = [];
-
-  // DOM元素 - 添加安全檢查
-  const loadingScreen = document.getElementById("loading-screen");
-
-  // 確保載入畫面能正常隱藏，不受其他元素影響
-  if (loadingScreen) {
-    setTimeout(() => {
-      loadingScreen.classList.add("fade-out");
-      setTimeout(() => {
-        loadingScreen.style.display = "none";
-      }, 500);
-    }, 1500);
-  }
-
-  // 安全地獲取DOM元素的函數
-  function safeGetElement(id) {
-    return document.getElementById(id) || null;
-  }
-
-  // DOM元素
-  const loadingScreen = document.getElementById("loading-screen");
-  const langButtons = document.querySelectorAll(".lang-btn");
-  const themeToggle = document.getElementById("theme-toggle");
-  const menuToggle = document.getElementById("menu-toggle");
-  const mainMenu = document.getElementById("main-menu");
-  const menuLinks = document.querySelectorAll(".main-menu a");
-  const sections = document.querySelectorAll("main > section");
-  const contentOverlay = document.getElementById("content-overlay");
-  const closeContent = document.getElementById("close-content");
-  const contentTitle = document.getElementById("content-title");
-  const contentBody = document.getElementById("content-body");
-  const prevChapter = document.getElementById("prev-chapter");
-  const nextChapter = document.getElementById("next-chapter");
-  const methodOverlay = document.getElementById("method-overlay");
-  const closeMethod = document.getElementById("close-method");
-  const methodTitle = document.getElementById("method-title");
-  const methodBody = document.getElementById("method-body");
-  const caseOverlay = document.getElementById("case-overlay");
-  const closeCase = document.getElementById("close-case");
-  const caseTitle = document.getElementById("case-title");
-  const caseBody = document.getElementById("case-body");
-  const exploreBtn = document.getElementById("explore-btn");
-  const crimeMethodBtns = document.querySelectorAll(".crime-method-btn");
-  const caseDetailBtns = document.querySelectorAll(".case-detail-btn");
-
-  // 載入畫面
-  setTimeout(() => {
-    loadingScreen.classList.add("fade-out");
-    setTimeout(() => {
-      loadingScreen.style.display = "none";
-    }, 500);
-  }, 1500);
+document.addEventListener('DOMContentLoaded', function() {
+    // 初始化變數
+    let currentLanguage = 'zh'; // 預設語言為中文
+    let currentTheme = 'dark'; // 預設主題為深色
+    let chapters = [];
+    let crimeMethods = [];
+    let cases = [];
+    
+    // DOM元素 - 添加安全檢查
+    const loadingScreen = document.getElementById('loading-screen');
+    
+    // 確保載入畫面能正常隱藏，不受其他元素影響
+    if (loadingScreen) {
+        setTimeout(() => {
+            loadingScreen.classList.add('fade-out');
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 500);
+        }, 1500);
+    }
+    
+    // 安全地獲取DOM元素的函數
+    function safeGetElement(id) {
+        return document.getElementById(id) || null;
+    }
+    
+    // 使用安全函數獲取DOM元素
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const themeToggle = safeGetElement('theme-toggle');
+    const menuToggle = safeGetElement('menu-toggle');
+    const mainMenu = safeGetElement('main-menu');
+    const menuLinks = document.querySelectorAll('.main-menu a');
+    const sections = document.querySelectorAll('main > section');
+    const contentOverlay = safeGetElement('content-overlay');
+    const closeContent = safeGetElement('close-content');
+    const contentTitle = safeGetElement('content-title');
+    const contentBody = safeGetElement('content-body');
+    const prevChapter = safeGetElement('prev-chapter');
+    const nextChapter = safeGetElement('next-chapter');
+    const methodOverlay = safeGetElement('method-overlay');
+    const closeMethod = safeGetElement('close-method');
+    const methodTitle = safeGetElement('method-title');
+    const methodBody = safeGetElement('method-body');
+    const caseOverlay = safeGetElement('case-overlay');
+    const closeCase = safeGetElement('close-case');
+    const caseTitle = safeGetElement('case-title');
+    const caseBody = safeGetElement('case-body');
+    const exploreBtn = safeGetElement('explore-btn');
+    const crimeMethodBtns = document.querySelectorAll('.crime-method-btn');
+    const caseDetailBtns = document.querySelectorAll('.case-detail-btn');
 
   // 語言切換
   langButtons.forEach((button) => {
